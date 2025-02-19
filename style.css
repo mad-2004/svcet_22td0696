@@ -1,0 +1,28 @@
+.parallax{
+height: 100vh;
+width: 100%;
+background-attachment: fixed;
+background-size: cover;
+background-position:center;
+display: flex;
+justify-content: center;
+align-items: center;
+scroll-snap-align: start;
+}
+.parallax:nth-child(1) {
+background-image: url("https://img.freepik.com/free-photo/beautiful-forest-hill-with-high-rocky-snowy-mountains_181624-2025.jpg?t=st=1739982537~exp=1739986137~hmac=c4e5ee236427b47ff588d4a01d418a2e8129d4acc46caa45e8ce163bfb149122&w=1380");
+}
+.parallax:nth-child(2) {
+background-image: url("https://img.freepik.com/free-photo/similan-island_1203-2572.jpg?t=st=1739982593~exp=1739986193~hmac=4b50a61cafb762795a4a4ac338b903226fb430a0ef67610e6853081186424479&w=1380");
+}
+.parallax:nth-child(3) {
+background-image: url("https://img.freepik.com/free-photo/pathway-middle-green-leafed-trees-with-sun-shining-through-branches_181624-4539.jpg?t=st=1739982704~exp=1739986304~hmac=4e7e359a0fbed878ea1d3048d62f734e57ec176b69f73e177f2fd5ff7c15a765&w=1380");
+}
+.content {
+color: #f0f0f0;
+text-align: center;
+padding: 50px;
+}
+.content h1 {
+font-size: clamp(2ren, 5vw, 6rem);
+}
